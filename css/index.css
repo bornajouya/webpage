@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url('./fonts/woff/IRANSansWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'IRANSansWeb',sans-serif;
+    font-size: 15px;
+  }
+
+html {
+    background-color: #25939b;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    direction: rtl;
+
+}
+
+header {
+    direction: rtl;
+    /* margin: 4%;     */
+    padding-top: 2px;
+    padding-right: 2%;
+    
+}
+
+div.polaroid {
+    width: 40%;
+    margin: 30px;
+    /* height: 80px; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding: 10px;
+    float: right;
+    transition-property: all;
+    transition-duration: 1s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .div.polaroid img :hover {
+      transform: scale(1.5);
+  }
+  
+  .biography{
+    margin-top: 40px;
+    margin: 40px;
+  }
+
+  
+  div.containers {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+/* site Navigration */
+
+.site-nav li {
+    list-style: none;
+    float: right;
+    margin-left: 5px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 0px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color: #25939b;
+    padding: 8px 15px;
+    border: 3px solid #25939b;
+    border-bottom: none;
+    width: 80px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.site-nav a:hover {
+    background-color: #b4b7b8;
+}
+
+/* end of site navigation */
+
+.line{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 8px;
+    border-bottom: 1.2px solid #25939b;
+    /* position: absolute; */
+    margin-top: 53px;
+    }
+
+footer .foot p {
+    margin: auto;
+    width: 150px;
+    color: white;
+    margin-top: 25px;
+}
+
+footer {
+    margin: auto;
+    width: 40%;
+    /* background-color: lightgreen; */
+}
+
+
+
+@media screen and (max-width: 950px) {
+    div.polaroid {
+        width: 50%;
+        margin-top: 70px;
+        /* height: 80px; */
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        padding: 10px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+
+      .container {
+        background-color: white;
+        width: 80%;
+        height: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        border-radius: 20px;
+        direction: rtl;
+    
+    }
+
+    .site-nav a{
+        display: block;
+        text-decoration: none;
+        color: #25939b;
+        padding: 8px 15px;
+        border: 3px solid #25939b;
+        border-bottom: none;
+        width: 100px;
+    }
+
+    .site-nav {
+        margin-top: 0px;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .line{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 8px;
+        border-bottom: 1.2px solid #25939b;
+        /* position: absolute; */
+        margin-top: 153px;
+        }
+
+    
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .site-nav a{
+        display: block;
+        text-decoration: none;
+        color: #25939b;
+        padding: 5px 5px;
+        border: 3px solid #25939b;
+        border-bottom: none;
+        width: 90px;
+    }
+
+    .site-nav {
+        margin-top: 0px;
+        width: 65%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container {
+        background-color: white;
+        width: 80%;
+        height: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        border-radius: 20px;
+        direction: rtl;
+    
+    }
+ 
+  }
+
